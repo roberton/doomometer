@@ -1,0 +1,27 @@
+{
+  "name": "asteroids",
+  "version": "1.0.0",
+  "description": "Calculate risk of asteroid apocalypse",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && jest"
+  },
+  "standard": {
+    "env": [ "jest" ]
+  },
+  "keywords": [
+    "asteroid",
+    "apocalypse",
+    "doom"
+  ],
+  "author": "roberton",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1",
+    "standard": "^12.0.1"
+  }
+}
